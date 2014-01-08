@@ -1,6 +1,6 @@
 $(document).ready(function() {
     var satoshi = 100000000;
-    
+    if (document.referrer.indexOf('cryptodev') !== -1) {alert('It appears you got here from Cryptodev. If you are a member of that site, I recommend leaving - it will be a waste of your time. Why? Because Cryptodev appear to help the community by creating a group of developers. Fine, but what they DON\'T do is help the rest of the community. For example, somebody came onto their IRC and asked about altcoins. They were not a developer. That person was given a hard pushoff, and so was I (whiskers75) for defending that member. Do you want this in a developing community? -whiskers75')}
     var sells = 0;
     var sellbtc = 0;
     var low = 0;
